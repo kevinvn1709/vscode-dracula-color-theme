@@ -1,0 +1,24 @@
+{
+    "name": "dracula-theme-from-intellij",
+    "displayName": "Darcula IntelliJ Theme",
+    "description": "A Darcula Theme inspired by IntelliJ",
+    "version": "0.2.7",
+    "license": "MIT",
+    "publisher": "trinm1709",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Darcula Theme from IntelliJ",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dracula-color-theme.json"
+            }
+        ]
+    }
+}
