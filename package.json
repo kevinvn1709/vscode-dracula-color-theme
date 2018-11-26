@@ -11,6 +11,11 @@
     "categories": [
         "Themes"
     ],
+    "homepage": "https://github.com/kevinvn1709/vscode-dracula-color-theme",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/kevinvn1709/vscode-dracula-color-theme.git"
+    },
     "icon": "icon.png",
     "contributes": {
         "themes": [
