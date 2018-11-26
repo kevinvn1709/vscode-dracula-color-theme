@@ -2,9 +2,11 @@
 	"type": "dark",
 	"colors": {
 		"list.dropBackground": "#383b3d",
+		// "editor.background": "#2b2b2b",
 		"editor.foreground": "#d4d4d4",
 		"editor.background":"#212122",
 		"sideBar.background": "#1e1e1f",
+		// "editor.lineHighlightBackground": "#323232",
 		"editor.lineHighlightBackground": "#2A2A2B",
 		"editor.inactiveSelectionBackground": "#3a3d41",
 		"editor.selectionHighlightBackground": "#add6ff26",
@@ -387,6 +389,54 @@
 			"settings": {
 				"foreground": "#CC7832",
 				"fontStyle": "bold"
+			}
+		},
+		// {
+		// 	"name": "Variable call Python",
+		// 	"scope": [
+		// 		"variable.parameter.function-call.python",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#c04524",
+		// 	}
+		// },
+		{
+			"name": "Source Python",
+			"scope": [
+				"source.python"
+			],
+			"settings": {
+				"foreground": "#A9B7C6",
+			}
+		},
+		{
+			"name": "Magic function python",
+			"scope": [
+				"support.function.magic.python"
+			],
+			"settings": {
+				"foreground": "#9876AA",
+			}
+		},
+		{
+			"name": "Self keyword python",
+			"scope":[
+				"variable.language.special.self.python",
+				"variable.parameter.function.language.special.self.python"
+			],
+			"settings": {
+				"foreground": "#9876AA",
+				"fontStyle": "",
+			}
+		},
+		{
+			"name" : "Function declarations Python",
+			"scope": [
+				"entity.name.function.python",
+				"meta.function-call.generic.python",
+			],
+			"settings": {
+				"foreground": "#FFC66D",
 			}
 		},
 		{
