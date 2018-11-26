@@ -2,7 +2,7 @@
     "name": "dracula-theme-from-intellij",
     "displayName": "Darcula IntelliJ Theme",
     "description": "A Darcula Theme inspired by IntelliJ",
-    "version": "0.2.7",
+    "version": "0.3.0",
     "license": "MIT",
     "publisher": "trinm1709",
     "engines": {
