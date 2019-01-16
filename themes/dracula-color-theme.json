@@ -589,6 +589,69 @@
 			"settings": {
 				"foreground": "#b267e6"
 			}
+		},
+
+
+		// Clojure & ClojureScript
+		{
+			"scope": "constant.keyword.clojure",
+			"settings": {
+				"foreground": "#9876AA"
+			}
+		},
+		{
+			"name": "defn",
+			"scope": ["keyword.control.clojure"],
+			"settings": {
+				"foreground": "#CC7832",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Clojure keywords",
+			"scope": ["meta.symbol.clojure", "meta.var.clojure"],
+			"settings": {
+				"foreground": "#A9B7C6",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "if etc",
+			"scope": ["storage.control.clojure"],
+			"settings": {
+				"foreground": "#CC7832",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "@ /",
+			"scope": ["meta.expression.clojure"],
+			"settings": {
+				"foreground": "#A9B7C6",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": ["entity.global.clojure"],
+			"settings": {
+				"foreground": "#A9B7C6",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "state/",
+			"scope": ["meta.symbol.namespace.clojure"],
+			"settings": {
+				"foreground": "#A9B7C6",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "reset!",
+			"scope": ["entity.name.function.clojure"],
+			"settings": {
+				"foreground": "#CC7832"
+			}
 		}
 	]
 }
