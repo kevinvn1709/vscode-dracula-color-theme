@@ -552,6 +552,43 @@
 			}
 		},
 		{
+			"name": "HTML: tag color",
+			"scope": "entity.name.tag.html",
+			"settings": {
+				"foreground": "#e8bf6a",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "HTML: attribute value",
+			"scope": "string.quoted.double.html",
+			"settings": {
+				"foreground": "#a5c361",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Angular: structral directive, property and event and two-way binding",
+			"scope": [
+				"entity.other.ng-binding-name.template.html",
+				"entity.other.ng-binding-name.property.html",
+				"entity.other.ng-binding-name.event.html",
+				"entity.other.ng-binding-name.two-way.html",
+			],
+			"settings": {
+				"foreground": "#9876aa",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Angular: string interpolation",
+			"scope": "punctuation.definition.block.ts",
+			"settings": {
+				"foreground": "#cc7832",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "CSS property value",
 			"scope": [
 				"support.constant.property-value",
